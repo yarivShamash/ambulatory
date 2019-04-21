@@ -1,0 +1,87 @@
+html{
+    font-size: 30px;
+}
+
+body{
+    background-image: url("./img/heartBCKG.jpg");
+    background-color:  rgb(130, 205, 230);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: auto;
+}
+
+.transparent {
+    font-size: 0.01rem;
+    color: rgba(0, 0, 1, 0.0);
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+
+    background-color: rgba(173, 216, 230, 0.8);
+    border-radius: 0.4rem;
+    
+    text-align: center;
+
+    padding: 1rem;
+    margin: 0.1rem;
+}
+
+.mainText {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 1rem;
+
+    background-color: rgba(248, 128, 158, 0.95);
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+
+    text-align: right;
+    
+    padding: 1rem;
+    margin: 0.1rem;
+}
+
+.buttomButtons{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 1rem;
+
+    background-color: rgba(173, 216, 230, 0.8);
+    border-radius: 0.4rem;
+
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0.1rem;
+    padding: 0.3rem;
+}
+
+.forward, .back{
+    background-color:  rgba(32, 178, 170, 0.5);
+    border-radius: 0.4rem;
+
+    padding: 0.2rem;
+}
+
+.movieclip{
+    color: rgb(248, 244, 226);
+    background-color:  rgba(139, 23, 58, 0.8);
+    border-radius: 0.4rem;
+
+    padding: 0.3rem 0.2rem;
+}
+
+@media only screen and (max-width: 480px){
+    body{
+        background-image: url("./img/heartBCKG.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+        background-size: cover;
+    }
+}
