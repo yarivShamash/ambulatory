@@ -45,6 +45,8 @@ h1 {
     
     padding: 1rem;
     margin: 0.1rem;
+
+    overflow: scroll;
     
 }
 
